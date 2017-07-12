@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>FOSS4G Boston 2017</name>
+    <description>All of the venues for FOSS4G Boston 2017</description>
+    <Style id="icon-1504-3949AB-nodesc-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1504-3949AB-nodesc-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1504-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1504-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1504-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1511-A52714-labelson">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1532-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1602-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1602-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1602-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1602-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1719-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1719-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1719-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1719-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1719-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1879-A52714-labelson">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-labelson">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="line-757575-4100-normal">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-757575-4100-highlight">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>6.15</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-757575-4100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-757575-4100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-757575-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795548-3325-nodesc-normal">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>3.325</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795548-3325-nodesc-highlight">
+      <LineStyle>
+        <color>ff485579</color>
+        <width>4.9875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795548-3325-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795548-3325-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795548-3325-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-3906-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>3.906</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A52714-3906-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>5.859</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A52714-3906">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-3906-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-3906-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Conference Locations</name>
+      <Placemark>
+        <name>Conference Hotel</name>
+        <description><![CDATA[Seaport Hotel & World Trade Center]]></description>
+        <styleUrl>#icon-1602-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0414327,42.3501638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Main Conference Venue</name>
+        <description><![CDATA[Seaport Hotel & World Trade Center]]></description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0404886,42.351369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Workshops</name>
+        <description>Center for Geographic Analysis, Harvard University</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1132356,42.375638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harpoon Welcome Social</name>
+        <description>Harpoon Brewery And Beer Hall</description>
+        <styleUrl>#icon-1879-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.034439,42.346892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gala</name>
+        <description>New England Aquarium</description>
+        <styleUrl>#icon-1511-A52714-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0495815,42.3591315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[JS.Geo & Code Sprint]]></name>
+        <description>District Hall</description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0453102,42.3522715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Suggested Travel Routes</name>
+      <Placemark>
+        <name>South Station</name>
+        <description><![CDATA[Red & Silver Line Connection]]></description>
+        <styleUrl>#icon-1719-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0551042,42.3518776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harvard</name>
+        <description>Red Line</description>
+        <styleUrl>#icon-1719-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1189594,42.3733705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Line  (T)</name>
+        <description>Suggested Subway (T) Route Between Conference Venue and Workshops by way of South Station and Harvard</description>
+        <styleUrl>#line-A52714-3906</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -71.1189594,42.3733705,0
+            -71.0998249,42.3630786,0
+            -71.070385,42.3611125,0
+            -71.0551042,42.3518776,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>World Trade Center</name>
+        <description>Silver Line</description>
+        <styleUrl>#icon-1532-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0425135,42.348302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Courthouse</name>
+        <description>Silver Line</description>
+        <styleUrl>#icon-1532-3949AB</styleUrl>
+        <Point>
+          <coordinates>
+            -71.04685,42.35245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silver Line (T)</name>
+        <description><![CDATA[Suggested subway (T) extensions between Workshops and the Conference Venue by way of Courthouse, World Trade Center, or South Station. This is also the route to take from Logan Airport to the Seaport Hotel & World Trade Center.]]></description>
+        <styleUrl>#line-757575-4100</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -71.0247213,42.3666578,0
+            -71.0275867,42.3676101,0
+            -71.0280472,42.3681542,0
+            -71.0278094,42.3687985,0
+            -71.0264755,42.3693262,0
+            -71.0227777,42.368162,0
+            -71.0193733,42.3677359,0
+            -71.017843,42.3670424,0
+            -71.0174862,42.3663847,0
+            -71.0187895,42.3649742,0
+            -71.0198083,42.3647216,0
+            -71.0247213,42.3666578,0
+            -71.0252345,42.3608275,0
+            -71.0263467,42.3571889,0
+            -71.030631,42.3506724,0
+            -71.0320327,42.3494687,0
+            -71.0339351,42.3480444,0
+            -71.037654,42.3467499,0
+            -71.0399419,42.3469204,0
+            -71.0410416,42.3473882,0
+            -71.0432839,42.3486093,0
+            -71.0435629,42.3488869,0
+            -71.0439169,42.3495371,0
+            -71.0441744,42.3500842,0
+            -71.044625,42.3507106,0
+            -71.0450113,42.3511229,0
+            -71.0459983,42.3519633,0
+            -71.0460842,42.3521378,0
+            -71.04685,42.35245,0
+            -71.0492599,42.3535491,0
+            -71.0508746,42.3543499,0
+            -71.0513896,42.3547701,0
+            -71.0532725,42.3538107,0
+            -71.0539699,42.3534222,0
+            -71.0548389,42.3530099,0
+            -71.0552466,42.3527166,0
+            -71.0553539,42.3526135,0
+            -71.0550857,42.3524787,0
+            -71.0551042,42.3518776,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Suggested Walk from Conference to Gala</name>
+        <styleUrl>#line-795548-3325-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -71.0415083,42.350108,0
+            -71.0415727,42.3500128,0
+            -71.042785,42.3505084,0
+            -71.0440135,42.3511704,0
+            -71.0483265,42.3531645,0
+            -71.0489273,42.3534143,0
+            -71.0490936,42.3534619,0
+            -71.0508746,42.3543499,0
+            -71.0512233,42.3545877,0
+            -71.0513896,42.3547701,0
+            -71.0510248,42.3551348,0
+            -71.0504401,42.354889,0
+            -71.0499519,42.3556581,0
+            -71.0497401,42.356002,0
+            -71.0500988,42.3560525,0
+            -71.0500501,42.3565584,0
+            -71.0492706,42.3565896,0
+            -71.049213,42.3566976,0
+            -71.049274,42.3568275,0
+            -71.0498745,42.356821,0
+            -71.0498991,42.3569595,0
+            -71.0490035,42.3572081,0
+            -71.0490211,42.3573562,0
+            -71.0491331,42.3574204,0
+            -71.0497216,42.3572632,0
+            -71.0498167,42.3575641,0
+            -71.0494873,42.357673,0
+            -71.0495493,42.3578805,0
+            -71.0494771,42.3579635,0
+            -71.0495314,42.3581179,0
+            -71.0494353,42.3581714,0
+            -71.0494737,42.358319,0
+            -71.0501755,42.358202,0
+            -71.0502944,42.3585756,0
+            -71.0505805,42.3588392,0
+            -71.0506277,42.3590146,0
+            -71.0500538,42.359088,0
+            -71.0496468,42.3589463,0
+            -71.0492985,42.3588972,0
+            -71.0489394,42.3589472,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Boston Logan International Airport</name>
+        <styleUrl>#icon-1504-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0194736,42.3663742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>More Nearby Hotels</name>
+      <Placemark>
+        <name>Renaissance Boston Waterfront Hotel</name>
+        <styleUrl>#icon-1602-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0390674,42.3480466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Westin Boston Waterfront</name>
+        <styleUrl>#icon-1602-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0433028,42.3459198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aloft Boston Seaport</name>
+        <styleUrl>#icon-1602-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.044598,42.343577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Element Boston Seaport</name>
+        <styleUrl>#icon-1602-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0451095,42.3429573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Envoy Hotel, Autograph Collection</name>
+        <styleUrl>#icon-1602-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0482014,42.3536413,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>YOTEL Boston</name>
+        <styleUrl>#icon-1602-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0469644,42.3522393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,615 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0414327,
+          42.3501638
+        ]
+      },
+      "properties": {
+        "name": "Conference Hotel",
+        "styleUrl": "#icon-1602-0288D1-labelson",
+        "styleHash": "15d10ff1",
+        "description": "Seaport Hotel & World Trade Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0404886,
+          42.351369
+        ]
+      },
+      "properties": {
+        "name": "Main Conference Venue",
+        "styleUrl": "#icon-1899-DB4436-labelson",
+        "styleHash": -77912656,
+        "description": "Seaport Hotel & World Trade Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1132356,
+          42.375638
+        ]
+      },
+      "properties": {
+        "name": "Workshops",
+        "styleUrl": "#icon-1899-0288D1-labelson",
+        "styleHash": "-4e781cb6",
+        "description": "Center for Geographic Analysis, Harvard University"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.034439,
+          42.346892
+        ]
+      },
+      "properties": {
+        "name": "Harpoon Welcome Social",
+        "styleUrl": "#icon-1879-A52714-labelson",
+        "styleHash": "123a06f3",
+        "description": "Harpoon Brewery And Beer Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0495815,
+          42.3591315
+        ]
+      },
+      "properties": {
+        "name": "Gala",
+        "styleUrl": "#icon-1511-A52714-labelson",
+        "styleHash": "-77ecb752",
+        "description": "New England Aquarium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0453102,
+          42.3522715
+        ]
+      },
+      "properties": {
+        "name": "JS.Geo & Code Sprint",
+        "styleUrl": "#icon-1899-0288D1-labelson",
+        "styleHash": "-4e781cb6",
+        "description": "District Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0551042,
+          42.3518776
+        ]
+      },
+      "properties": {
+        "name": "South Station",
+        "description": "Red & Silver Line Connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1189594,
+          42.3733705
+        ]
+      },
+      "properties": {
+        "name": "Harvard",
+        "description": "Red Line"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.1189594,
+            42.3733705
+          ],
+          [
+            -71.0998249,
+            42.3630786
+          ],
+          [
+            -71.070385,
+            42.3611125
+          ],
+          [
+            -71.0551042,
+            42.3518776
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Red Line  (T)",
+        "description": "Suggested Subway (T) Route Between Conference Venue and Workshops by way of South Station and Harvard"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0425135,
+          42.348302
+        ]
+      },
+      "properties": {
+        "name": "World Trade Center",
+        "description": "Silver Line"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.04685,
+          42.35245
+        ]
+      },
+      "properties": {
+        "name": "Courthouse",
+        "description": "Silver Line"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.0247213,
+            42.3666578
+          ],
+          [
+            -71.0275867,
+            42.3676101
+          ],
+          [
+            -71.0280472,
+            42.3681542
+          ],
+          [
+            -71.0278094,
+            42.3687985
+          ],
+          [
+            -71.0264755,
+            42.3693262
+          ],
+          [
+            -71.0227777,
+            42.368162
+          ],
+          [
+            -71.0193733,
+            42.3677359
+          ],
+          [
+            -71.017843,
+            42.3670424
+          ],
+          [
+            -71.0174862,
+            42.3663847
+          ],
+          [
+            -71.0187895,
+            42.3649742
+          ],
+          [
+            -71.0198083,
+            42.3647216
+          ],
+          [
+            -71.0247213,
+            42.3666578
+          ],
+          [
+            -71.0252345,
+            42.3608275
+          ],
+          [
+            -71.0263467,
+            42.3571889
+          ],
+          [
+            -71.030631,
+            42.3506724
+          ],
+          [
+            -71.0320327,
+            42.3494687
+          ],
+          [
+            -71.0339351,
+            42.3480444
+          ],
+          [
+            -71.037654,
+            42.3467499
+          ],
+          [
+            -71.0399419,
+            42.3469204
+          ],
+          [
+            -71.0410416,
+            42.3473882
+          ],
+          [
+            -71.0432839,
+            42.3486093
+          ],
+          [
+            -71.0435629,
+            42.3488869
+          ],
+          [
+            -71.0439169,
+            42.3495371
+          ],
+          [
+            -71.0441744,
+            42.3500842
+          ],
+          [
+            -71.044625,
+            42.3507106
+          ],
+          [
+            -71.0450113,
+            42.3511229
+          ],
+          [
+            -71.0459983,
+            42.3519633
+          ],
+          [
+            -71.0460842,
+            42.3521378
+          ],
+          [
+            -71.04685,
+            42.35245
+          ],
+          [
+            -71.0492599,
+            42.3535491
+          ],
+          [
+            -71.0508746,
+            42.3543499
+          ],
+          [
+            -71.0513896,
+            42.3547701
+          ],
+          [
+            -71.0532725,
+            42.3538107
+          ],
+          [
+            -71.0539699,
+            42.3534222
+          ],
+          [
+            -71.0548389,
+            42.3530099
+          ],
+          [
+            -71.0552466,
+            42.3527166
+          ],
+          [
+            -71.0553539,
+            42.3526135
+          ],
+          [
+            -71.0550857,
+            42.3524787
+          ],
+          [
+            -71.0551042,
+            42.3518776
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Silver Line (T)",
+        "description": "Suggested subway (T) extensions between Workshops and the Conference Venue by way of Courthouse, World Trade Center, or South Station. This is also the route to take from Logan Airport to the Seaport Hotel & World Trade Center."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.0415083,
+            42.350108
+          ],
+          [
+            -71.0415727,
+            42.3500128
+          ],
+          [
+            -71.042785,
+            42.3505084
+          ],
+          [
+            -71.0440135,
+            42.3511704
+          ],
+          [
+            -71.0483265,
+            42.3531645
+          ],
+          [
+            -71.0489273,
+            42.3534143
+          ],
+          [
+            -71.0490936,
+            42.3534619
+          ],
+          [
+            -71.0508746,
+            42.3543499
+          ],
+          [
+            -71.0512233,
+            42.3545877
+          ],
+          [
+            -71.0513896,
+            42.3547701
+          ],
+          [
+            -71.0510248,
+            42.3551348
+          ],
+          [
+            -71.0504401,
+            42.354889
+          ],
+          [
+            -71.0499519,
+            42.3556581
+          ],
+          [
+            -71.0497401,
+            42.356002
+          ],
+          [
+            -71.0500988,
+            42.3560525
+          ],
+          [
+            -71.0500501,
+            42.3565584
+          ],
+          [
+            -71.0492706,
+            42.3565896
+          ],
+          [
+            -71.049213,
+            42.3566976
+          ],
+          [
+            -71.049274,
+            42.3568275
+          ],
+          [
+            -71.0498745,
+            42.356821
+          ],
+          [
+            -71.0498991,
+            42.3569595
+          ],
+          [
+            -71.0490035,
+            42.3572081
+          ],
+          [
+            -71.0490211,
+            42.3573562
+          ],
+          [
+            -71.0491331,
+            42.3574204
+          ],
+          [
+            -71.0497216,
+            42.3572632
+          ],
+          [
+            -71.0498167,
+            42.3575641
+          ],
+          [
+            -71.0494873,
+            42.357673
+          ],
+          [
+            -71.0495493,
+            42.3578805
+          ],
+          [
+            -71.0494771,
+            42.3579635
+          ],
+          [
+            -71.0495314,
+            42.3581179
+          ],
+          [
+            -71.0494353,
+            42.3581714
+          ],
+          [
+            -71.0494737,
+            42.358319
+          ],
+          [
+            -71.0501755,
+            42.358202
+          ],
+          [
+            -71.0502944,
+            42.3585756
+          ],
+          [
+            -71.0505805,
+            42.3588392
+          ],
+          [
+            -71.0506277,
+            42.3590146
+          ],
+          [
+            -71.0500538,
+            42.359088
+          ],
+          [
+            -71.0496468,
+            42.3589463
+          ],
+          [
+            -71.0492985,
+            42.3588972
+          ],
+          [
+            -71.0489394,
+            42.3589472
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Suggested Walk from Conference to Gala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0194736,
+          42.3663742
+        ]
+      },
+      "properties": {
+        "name": "Boston Logan International Airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0390674,
+          42.3480466
+        ]
+      },
+      "properties": {
+        "name": "Renaissance Boston Waterfront Hotel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0433028,
+          42.3459198
+        ]
+      },
+      "properties": {
+        "name": "The Westin Boston Waterfront"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.044598,
+          42.343577
+        ]
+      },
+      "properties": {
+        "name": "Aloft Boston Seaport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0451095,
+          42.3429573
+        ]
+      },
+      "properties": {
+        "name": "Element Boston Seaport"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0482014,
+          42.3536413
+        ]
+      },
+      "properties": {
+        "name": "The Envoy Hotel, Autograph Collection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0469644,
+          42.3522393
+        ]
+      },
+      "properties": {
+        "name": "YOTEL Boston"
+      }
+    }
+  ]
+}
