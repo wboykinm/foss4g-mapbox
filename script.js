@@ -15,11 +15,21 @@ if (!('remove' in Element.prototype)) {
 
 // handle navigation - FIXME
 function navMe(lon,lat) {
-  navigator.geolocation.getCurrentPosition(function(position) {
-    //Send to Mapbox Directions page
-    var navUrl = 'nav?start=' + position.coords.longitude + ',' + position.coords.latitude + '&end=' + lon + ',' + lat
+  // if no geo in browser, use conf site
+  if (!navigator.geolocation){
+    var navUrl = 'nav?start=' + '-71.041575' + ',' + '42.349985' + '&end=' + lon + ',' + lat
     window.open(navUrl)
-  });
+  } else {
+    // or use browser location
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var navUrl = 'nav?start=' + position.coords.longitude + ',' + position.coords.latitude + '&end=' + lon + ',' + lat
+      window.open(navUrl)
+    },function error() {
+      // again, if no geo in browser, use conf site
+      var navUrl = 'nav?start=' + '-71.041575' + ',' + '42.349985' + '&end=' + lon + ',' + lat
+      window.open(navUrl)
+    });
+  }
 }
 
 // General location type lookup
@@ -85,8 +95,42 @@ request.onload = function() {
       });
       // Initialize the list
       buildLocationList(points);
-      // Add line features
       
+      // Add line features
+      lines.features.forEach(function(line,j) {
+        var lineColor = '#ffffff'
+        var lineOffset = 0
+        var lineDash = [1,0]
+        if (line.properties.name === 'Red Line  (T)') {
+          lineColor = '#C52720'
+          lineOffset = -4
+        } else if (line.properties.name === 'Silver Line (T)') {
+          lineColor = '#80878D'
+          lineOffset = -4
+        } else if (line.properties.name === 'Suggested Walk from Conference to Gala') {
+          lineColor = '#587EC1'
+          lineDash = [1,2]
+          lineOffset = 4
+        }
+        map.addLayer({
+          "id": "route-" + j,
+          "type": "line",
+          "source": {
+            "type": "geojson",
+            "data": line.geometry
+          },
+          "layout": {
+            "line-join": "round",
+            "line-cap": "round"
+          },
+          "paint": {
+            "line-color": lineColor,
+            "line-width": 8,
+            "line-offset": lineOffset,
+            "line-dasharray": lineDash
+          }
+        })
+      })
     });
     
     
@@ -107,7 +151,7 @@ request.onload = function() {
 
       el.addEventListener('click', function(e) {
         // 1. Fly to the point
-        flyToStore(marker);
+        flyToSite(marker);
 
         // 2. Close all other popups and display popup for clicked store
         createPopUp(marker);
@@ -128,12 +172,12 @@ request.onload = function() {
 
     // add wacky movement because you're still not over all the 
     // 3d stuff available w/ GL
-    function flyToStore(currentFeature) {
+    function flyToSite(currentFeature) {
       map.flyTo({
         center: currentFeature.geometry.coordinates,
         zoom: 15,
         bearing: Math.floor(Math.random() * 50) + 1,
-        pitch: Math.floor(Math.random() * 50) + 1,
+        pitch: Math.floor(Math.random() * 40) + 21,
         speed: 0.3,
         curve: 1
       });
@@ -147,7 +191,7 @@ request.onload = function() {
       if (currentFeature.properties.description) {
         popupContent = '<h3>' + currentFeature.properties.name + '</h3>' + '<h4>' + currentFeature.properties.description + '</h4><p class="pad3"><a onclick="navMe(' + currentFeature.geometry.coordinates + ')" class="button">Navigate</a></p>'
       } else {
-        popupContent = '<h3>' + currentFeature.properties.name + '</h3>'
+        popupContent = '<h3>' + currentFeature.properties.name + '</h3><p class="pad3"><a onclick="navMe(' + currentFeature.geometry.coordinates + ')" class="button">Navigate</a></p>'
       }
       var popup = new mapboxgl.Popup({
           closeOnClick: false
@@ -184,7 +228,7 @@ request.onload = function() {
           var clickedListing = data.features[this.dataPosition];
 
           // 1. Fly to the point
-          flyToStore(clickedListing);
+          flyToSite(clickedListing);
 
           // 2. Close all other popups and display popup for clicked store
           createPopUp(clickedListing);
