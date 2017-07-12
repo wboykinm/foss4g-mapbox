@@ -89,6 +89,7 @@ request.onload = function() {
 
     // This adds the data to the map
     map.on('load', function(e) {
+      map.addControl(new mapboxgl.NavigationControl());
       map.addSource("places", {
         "type": "geojson",
         "data": points
