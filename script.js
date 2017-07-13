@@ -195,7 +195,7 @@ request.onload = function() {
         popupContent = '<h3>' + currentFeature.properties.name + '</h3><p class="pad3"><a onclick="navMe(' + currentFeature.geometry.coordinates + ')" class="button">Navigate</a></p>'
       }
       var popup = new mapboxgl.Popup({
-          closeOnClick: false
+          closeOnClick: true
         })
         .setLngLat(currentFeature.geometry.coordinates)
         .setHTML(popupContent)
