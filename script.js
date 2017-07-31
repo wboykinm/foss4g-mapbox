@@ -200,6 +200,7 @@ request.onload = function() {
         .setLngLat(currentFeature.geometry.coordinates)
         .setHTML(popupContent)
         .addTo(map);
+      console.log('there should totally be a popup visible because this is the end of the createPopup function bound to ' + currentFeature.properties.name + '!')
     }
 
     function buildLocationList(data) {
