@@ -1,7 +1,7 @@
 // Constants
 var url = 'foss4g_locations.geojson'
 var request = new XMLHttpRequest();
-mapboxgl.accessToken = 'pk.eyJ1IjoiZXhhbXBsZXMiLCJhIjoiY2lqbmpqazdlMDBsdnRva284cWd3bm11byJ9.V6Hg2oYJwMAxeoR9GEzkAA';
+mapboxgl.accessToken = 'pk.eyJ1IjoibGFuZHBsYW5uZXIiLCJhIjoiY2p6aWpudXg2MTVwejNubnJxdm9qYXgzYiJ9.b6clnb4H6M_AD39xW2actQ';
 
 // General function
 if (!('remove' in Element.prototype)) {
